@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="URF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+    
+    <Title> About Us Page </Title>
+
+    <link rel="stylesheet" href="css/About.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/65511313ff.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+
+    <header>
+        <a href="index.html" class="logo">IrriGaia</a>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </header>
+    <section class="banner"></section>
+    <script type="text/javascript">
+        window.addEventListener("scroll", function(){
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+    </script>
+    
+    <section id="group">
+        <div class="group-heading">
+            <h3>The Group</h3>
+        </div>
+
+        <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+
+        <!--Slider-->
+      <div class="swiper-slide">
+        <div class="group-box">
+            <div class="group-img">
+                <img src="images/Blancaflor.png" />
+            </div>
+            <div class="group-text">
+                <strong> Fritz Symon Blancaflor</strong>
+                <span> 4th Year Student</span>
+
+                <div class="group-social">
+                    <a href="https://www.facebook.com/fritzsymon.blancaflor/">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/fritz-symon-blancaflor-8a8849323/">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="https://www.instagram.com/blancaflor.fs/">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://www.youtube.com/@vorn6300">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </div><!--group box end-->
+      </div> <!--slide box end-->
+
+      <div class="swiper-slide">
+        <div class="group-box">
+            <div class="group-img">
+                <img src="images/Stephanie.png" />
+            </div>
+            <div class="group-text">
+                <strong> Stephanie Rose Miranda</strong>
+                <span> 4th Year Student</span>
+
+                <div class="group-social">
+                    <a href="#">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div><!--group box end-->
+      </div> <!--slide box end-->
+
+      <div class="swiper-slide">
+        <div class="group-box">
+            <div class="group-img">
+                <img src="images/Blancaflor.png" />
+            </div>
+            <div class="group-text">
+                <strong> Fritz Symon Blancaflor</strong>
+                <span> 4th Year Student</span>
+
+                <div class="group-social">
+                    <a href="#">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </div><!--group box end-->
+      </div> <!--slide box end-->
+
+      <div class="swiper-slide">
+        <div class="group-box">
+            <div class="group-img">
+                <img src="images/Blancaflor.png" />
+            </div>
+            <div class="group-text">
+                <strong> Fritz Symon Blancaflor</strong>
+                <span> 4th Year Student</span>
+
+                <div class="group-social">
+                    <a href="#">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </div><!--group box end-->
+      </div> <!--slide box end-->
+
+    </div> <!--wapper-end-->
+  </div><!--swiper container end-->
+
+    </section>
+
+    <section id="new-section" class="new_section layout_padding">
+        <div class="container">
+          <div class="heading_container">
+            <h2>New Section Title</h2>
+            <p>This is a description for the new section. You can add content, images, or other elements here.</p>
+          </div>
+          <div class="content_container">
+            <p>Here you can add content specific to the new section, like images, text, or any HTML elements you need.</p>
+          </div>
+        </div>
+    </section>
+
+    <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+  </script>
+</body>
+</html>
